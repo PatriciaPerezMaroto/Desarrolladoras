@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+body{
+    font-family: 'Poppins';
+    color: #aab7dc;
+    background-color: #242933;
+
+}
+form { 
+    border-radius: 5px;
+    border: solid #DDDD;
+    width: 350px;
+    height: 480px;
+    padding: 8 px;
+    margin: auto;
+    border-color: #3d4458;
+    background-color: #2f3644;
+   
+
+    }
+.email{
+    padding: 8px 0px;
+}
+.nombre{
+    padding: 8px 0px;
+}
+.clave{
+    padding: 8px 0px;
+}
+.confirmar{
+    padding: 8px 0px;
+}
+
+   .titulo{
+    text-indent: 30px;
+    line-height: 30px;
+    font-size: 70%;
+    display: flex;
+
+   }
+   .inputContainer{
+    margin-top: 10px;
+    line-height: 10px;
+    text-indent: 30px;
+    font-size: small;
+    color: #6d7790;
+   }
+   .inputContainer.ref input{
+    outline: 0;} 
+
+   .inputContainer.acierto input{
+    border-color: #4fe96b;}
+
+    .inputContainer.error input{
+        border-color: #d95b5d;}
+
+    input{
+        
+        margin: 0 auto;
+        width: 80%;
+        padding: 8px 0px;
+        border: 3px solid white;
+        border-radius: 3px;
+        display: flex;
+        justify-content: center;
+       
+    }
+    
+   
+    #boton{ 
+        margin: 20 auto;
+        width: 82%;
+        height: 40px;
+        border-radius: 5px;
+        background-color: #6d69fb;
+        color: white;
+        border: 2px solid black;
+    }
+    .botoncito{
+        margin-top: 20px;
+    }
+    .inputContainer{
+        position: relative;  
+    }
+
+    .valido{
+        border-radius: 3 px;
+        box-shadow: inset 0 0 0 2px #4fe96b;
+
+    }
+    .novalido{
+        box-shadow: inset 0 0 0 2px #d95b5d;
+        border-radius: 3px;
+    }
+    .errorIcono_{
+        background-image: url('images/error-icon.svg');
+        background-repeat: no-repeat;
+        background-size: 20px;
+        background-position-x: 240px;
+        background-position-y: 8px;
+
+    }
+    .aciertoIcono_{
+        background-image: url('images/success-icon.svg');
+        background-repeat: no-repeat;
+        background-size: 20px;
+        background-position-x: 240px;
+        background-position-y: 8px;
+        
+        
+    }
+    .inputContainer.error{
+        color: #d95b5d;
+        font-size: 9px;
+        height: 13px;
+        opacity: 1;
+    }
+
+    .inputContainer.sucess.aciertoIcono_{
+        opacity: 1;
+    }
+    .inputContainer.error.errorIcono_{
+        opacity: 1;
+    }
+    span {
+        color: #d95b5d;
+        font-size: 10px;
+        padding: 30px;
+        
+        
+    }

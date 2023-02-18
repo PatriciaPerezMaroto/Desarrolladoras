@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Formulario desarrolladoras </title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        
+    
+        <div class="contenido">
+        <form id="estructura" action="">
+            <div class="titulo">
+            <h1> Create Account</h1>
+        </div>
+            <div class="inputContainer">
+                <div class="nombre">
+                <label for="pNombre">Nombre</label></div>
+                <input type="text" name="Nombre" value="" id="Nombre" class="formElement" autocomplete="off">
+                <span id="nameError"></span>
+            </div>
+             <div class="inputContainer">
+                <div class="email">
+                <label for="pEmail">Email</label></div>
+                <input type="Email" name="Email" value="" id="Email" class="formElement" autocomplete="off">
+                <span id="emailError"></span>
+            </div>
+            <div class="inputContainer">
+                <div class="clave">
+                <label for="pClave"> Clave</label></div>
+                <input type="password" name="Clave" value="" id="Clave" class="formElement">
+                <span id="claveError"></span>
+            
+            </div>
+            <div class="inputContainer">
+                <div class="confirmar">
+                <label for="pConfirmesuclave">Confirme su clave</label></div>
+                <input type="password" name="confirmar" value="" id="Confirmar" class="formElement">
+                <span id="confirmarError"></span>
+            </div>
+            <input type="submit" class="botoncito" value="ENVIAR" id="boton" onclick="return validateName(), validateEmail(), validateClave(), validateConfirmar(), validateFinal()"/>
+        </form>
+        </div>
+    <script src="index.js" type="text/javascript"></script>
+    </body>
+</html>
